@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="shortcut icon" href="favicon.ico" />
+    <title>CISA</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- CSS 
+        ================================================== -->
+    <!-- Bootstrap 3-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Google Fonts -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'> -->
+    <!-- Template Styles -->
+
+    <link href="css/carousel.css" rel="stylesheet" type="text/css" /> 
+    
+    <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/transition.js" type="text/javascript"></script>
+
+    
+    <script type="text/javascript">
+	
+		$(document).ready(function(){
+			$('#carousel-iphone, #carousel-two').carousel({
+			interval: false
+			});			
+			
+		});
+
+	</script>
+    <link href="css/style.css" rel="stylesheet" media="screen">
+      </head>
+
+  <body>
+
+	  
+	  <!-- NAVBAR
+	      ================================================== -->
+	  <nav class="navbar navbar-default" role="navigation">
+	  	  <div class="container">
+			  <div class="navbar-header">
+			 
+		
+			    <a class="navbar-brand" href="#">莱斯大学中国学生会</a>
+			    
+			  </div>
+			  <div class="collapse navbar-collapse navbar-ex1-collapse" style="font-family:Century Gothic;color:#E25345">
+			    <ul class="nav navbar-nav">
+			      <li><a onclick="$('header').animatescroll({padding:71});">Home</a></li>
+
+
+			       <li> <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="cisa_constitution.pdf">Constitution</a></li>
+                            <li><a onclick="$('.payoff').animatescroll({padding:71});">Mission</a></li>
+                            <!-- <li class="divider"></li> -->
+                            <li><a href="eb.html">Executive Board</a></li>
+							<li><a href="officers.html">Officers</a></li> 
+						</ul>
+					</li>
+
+
+			      <li><a onclick="$('.detail').animatescroll({padding:71});">Events</a></li>
+			     <!--  <li><a onclick="$('.features').animatescroll({padding:71});">Programs</a></li> -->
+			     <li> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Programs<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="NSCP.pdf">New Student Care Program</a></li>
+                          
+							<li><a href="#">Coming Soon...</a></li> 
+						</ul>
+					</li>
+			      <li><a onclick="$('.social').animatescroll({padding:71});">Contact Us</a></li>
+			   
+			    </ul>
+			  </div>
+		  </div>
+	  </nav>
+	  
+	  
+	   <!-- HEADER
+	   ================================================== -->	  
+	  <header>
+		 <div class="container">
+			 <div class="row">
+				 <div class="col-md-12">
+				 		<br>
+				 		<br>
+				 		<br>
+					
+					  <h1 style="font-family:Verdana;font-weight:bold;color:white">莱斯大学中国学生会</h1>
+					  <p class="lead" style="font-family:Century Gothic;">Chinese International Student Association</p>
+					
+				</div>	  
+			</div>    
+		</div>
+	 </header>
+	
+	  
+	  
+	  <!-- mission
+	      ================================================== -->
+	  <section class="payoff">
+		<div class="container">
+			  <div class="row">
+				  <div class="col-md-12 ">
+					  <h1 class="mission-background" style="font-family:Century Gothic;"><b><br>CISA's Mission</b>
+					  	<br><br>
+
+					
+					 Our mission is to better the environment of Chinese International students community at Rice.<br><br></h1>
+				  </div>
+			  </div>
+		  </div>	  
+	  </section>
+
+
+	  
+	  
+	  <!-- events
+	      ================================================== -->
+	  <section class="detail">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div id="carousel-example-generic-2" class="carousel slide" style="font-family:Verdana">
+										
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      	<div class="row">
+					      		<div class="col-sm-12 col-md-offset-1 col-md-6">
+					      			<h1>Welcome Mixer</h1>
+					      			<p>Our Welcome Mixer happens at the beginning of each school year. CISA welcomes all the new international Chinese students to fit in our community.</p>
+
+					      		</div>
+					      		<div class="col-sm-12 col-md-5">
+					      			<img src="img/events_mixer2.jpg" height="480">
+					      			
+					      		</div>
+					      	</div>
+					    </div>
+					    <div class="item">
+					    	<div class="row">
+					    		
+					    		<div class="col-sm-12 col-md-offset-1 col-md-6">
+					      			<h1>Restaurant Trips</h1>
+					      			<p>We organize restaurant trips each semester to explore Houston food culture together. </p>
+
+					      		</div>
+					      		<div class="col-sm-12 col-md-5">
+					      			<img src="img/events_trip.jpg" height="480">
+					      		
+					      		</div>
+					    	</div>
+						</div>
+					    <div class="item">
+					      <div class="row">
+					      	<div class="col-sm-12 col-md-offset-1 col-md-6">
+					      		<h1>Senior Appreciation Dinner</h1>
+					      		<p>When graduation is coming, we have senior appreciation dinner to say farewell to our seniors.</p>
+					      	</div>
+					      	<div class="col-sm-12 col-md-5">
+					      		
+					      		<img src="img/events_senior.jpg" height="480">
+					      	</div>
+					      </div>
+					    </div>
+					  </div>
+					
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic-2" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic-2" data-slide-to="2"></li>
+					  </ol>		
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</section>
+
+
+	  
+	
+	 <!-- contact
+	     ================================================== -->
+	  <section class="social">
+	  	<div class="container">
+	  		  <div class="row">
+	  			  <div class="col-md-12">
+	  			  	<h2 style="font-family:Century Gothic;font-size:80px">Contact Us</h2>
+	  			   	
+	  			   	<br>
+	  			   	<p style="line-height:150%;font-family:Century Gothic;color:white" >
+	  			   		<a href="#"><img src="img/contact_renren.png" style="height:70px;"></a>&nbsp&nbsp
+	  			   		<a href="http://weibo.com/ricecisa"><img src="img/contact_weibo.png" style="height:70px;"></a>&nbsp&nbsp
+	  			   		<a href="https://www.facebook.com/ricecisa"><img src="img/contact_facebook.png" style="height:70px;"></a>
+	  			   		<br><br>Renren: 莱斯大学中国学生会 <br>
+						Weibo: @莱斯大学中国学生会<br>
+	  			   		Facebook: Rice Chinese International Student Association<br>
+	  			   	
+	  			   		Email: cisa2014@gmail.com<br><br>
+	  			   	<font size="6px" color="#E25345">We would love to hear from you!</font><br></p>
+	  			   </div>
+	  		  </div>
+	  	  </div>	  
+	  </section>
+	  
+
+	
+	 
+	 <!-- JAVASCRIPT
+	     ================================================== -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animatescroll.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/retina-1.1.0.min.js"></script>
+    <script type="text/javascript" src="/dropdown.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.dropdown-toggle').dropdown();
+        });
+   </script>
+  	
+</html>

@@ -1,0 +1,36 @@
+<h1>Our Events</h1>
+  <!-- OCEAN GALLERY  -->        
+  <div id="musiciansCarousel" class="carousel slide" style="width:1000px;text-align:center"> 
+      <!-- Carousel items -->
+      <div class="carousel-inner" align="center">
+          <div class="active item">
+
+          	<a href="#"><img src="img/events_mixer2.jpg" style="height:900px;"></a>
+          	<p style="line-height:150%;font-weight:bold;">&nbsp;
+	  			   	&nbsp;&nbsp;&nbsp;
+	  			   	When graduation is coming, we have senior appreciation dinner to say farewell to our seniors.
+	When graduation is coming, we have senior appreciation dinner to say farewell to our seniors.	When graduation is coming, we have senior appreciation dinner to say farewell to our seniors.	When graduation is coming, we have senior appreciation dinner to say farewell to our seniors.	When graduation is coming, we have senior appreciation dinner to say farewell to our seniors.	When graduation is coming, we have senior appreciation dinner to say farewell to our seniors.	When graduation is coming, we have senior appreciation dinner to say farewell to our seniors.
+	  			   </p>
+          </div>
+          <div class="item">
+			<a href="#"><img src="img/events_trip.jpg" style="height:480px;"></a>
+          </div>
+          <div class="item" style="align:center">
+			<a href="#"><img src="img/events_senior.jpg" style="height:480px;"></a>
+          </div>
+         <!--  <div class="item">
+			<a href="#"><img src="../images/large/musicians04.jpg"></a>
+          </div>
+          <div class="item">
+			<a href="#"><img src="../images/large/musicians05.jpg"></a>
+          </div> -->
+      </div>
+  
+    <!-- Carousel nav -->
+    <!--   <a class="carousel-control left" href="#musiciansCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#musiciansCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+
+
+    
+	</section> -->
